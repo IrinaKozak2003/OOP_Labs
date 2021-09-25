@@ -82,6 +82,7 @@ namespace OOTP_Lab2
             //Упаковка и распаковка значимых типов
 
             Console.ReadKey();
+            //
         }
     }
 }
