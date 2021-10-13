@@ -9,17 +9,17 @@ namespace OOP_Lab3
             int[] AlexMarks = {7,9 ,9 ,8};
             int[] AntonMarks = {7,4 ,2 ,7};
             int[] MihailMarks = {4,6 ,2 ,3};
-            int[] PetrMarks = {7,6 ,7 ,8};
+            int[] ArtemMarks = {7,6 ,7 ,8};
             int[] KrisMarks = {10,9 ,9 ,10};
             int[] Test = {10,9 ,9 ,10};
             int Id = 7;
             Abiturient[] abiturients = new Abiturient[5];
 
             abiturients[0] = new Abiturient(KrisMarks);
-            abiturients[1] = new Abiturient(1, "Alex", "Ivanov", "Fedorovich", " Brest", 4476346,  AlexMarks);
+            abiturients[1] = new Abiturient(1, "Alexandr", "Mozolovskiy", "Dmitrievich", " Brest", 4476346,  AlexMarks);
             abiturients[2] = new Abiturient( out Id,"Muraviev", "Igorevich", "Baranovichi", 73456374, AntonMarks);
             abiturients[3] = new Abiturient(3, "Mihail", "Zinovich", "Vitalievich", "Drogichin", 37476538,  MihailMarks);
-            abiturients[4] = new Abiturient(4, "Petr", "Petrov", "Petrovich", "Grodno", 46537475,  PetrMarks);
+            abiturients[4] = new Abiturient(4, "Artem", "Sinkevich", "Dmitrievich", "Grodno", 46537475,  ArtemMarks);
             Abiturient test = new Abiturient(5, "0000", "0000", "0000", "0000", 0000,  Test);
             test.X = "Использование get и set";
             string x = test.X;
